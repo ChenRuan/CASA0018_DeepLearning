@@ -73,3 +73,13 @@ Problem 3 is still not solved, and I think the reason is that most of my dataset
 ![image](https://github.com/ChenRuan/CASA0018_DeepLearning/assets/145383140/fd5310b5-923f-459f-a6d8-f90d66713c9c)
 
 Therefore, if I have more time, I think I can adjust the contrast, brightness and color gradation of the images acquired by OV7675 to make them closer to the real one, or change the camera; reduce the complexity of the model a bit while ensuring the accuracy of the model; and increase the dataset by adding pictures of potted plants taken from various angles.
+
+## Bibliography
+
+Bhattarai, S. (2018) New Plant Diseases Dataset, Kaggle. Available at: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset (Accessed: 25 April 2024). 
+
+Edge Impulse (no date) Getting started, Edge Impulse Documentation. Available at: https://edge-impulse.gitbook.io/docs (Accessed: 25 April 2024). 
+
+## Declaration of Authorship
+
+I, Chen Ruan, confirm that the work presented in this assessment is my own. Where information has been derived from other sources, I confirm that this has been indicated in the work.
