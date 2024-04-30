@@ -34,7 +34,7 @@ I collected most of my plant data from the web, including from plant-themed webs
 
 Initially I wanted to go with the migration model on edge impulse, but I found that the migration model has very few parameters to choose from, as well as testing poorly after trying: for the first version of the dataset, the accuracy of the validation set was only about 74%, and in EON tuner, the second version of the dataset had a maximum accuracy of only 79%. Therefore, I re-chose the classification model for deep learning via convolution and pool. This model is more generalizable and I was able to tune and control it better, so it was very effective in distinguishing between healthy and unhealthy potted plants.
 
-After continuous testing and optimization, I finally obtained a CNN model diagram that meets the expectation, as shown below. The RGB image with a resolution of 48*48 is convolved three times (one 16 filters and two 32 filters) and pooled three times (2*2), and then turned into a one-dimensional vector through the flatten layer and classified into two categories: healthy and unhealthy.
+After continuous testing and optimization, I finally obtained a CNN model diagram that meets the expectation, as shown below. The RGB image with a resolution of 48 * 48 is convolved three times (one 16 filters and two 32 filters) and pooled three times (2 * 2), and then turned into a one-dimensional vector through the flatten layer and classified into two categories: healthy and unhealthy.
 
 ![image](https://github.com/ChenRuan/CASA0018_DeepLearning/assets/145383140/03bbea40-6700-4760-8d88-b83598c05ebc)
 
